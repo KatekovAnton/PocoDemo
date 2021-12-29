@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41643A582775F09100FBC707 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41643A562775F09100FBC707 /* libPocoNet.a */; };
+		41643A592775F09100FBC707 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41643A572775F09100FBC707 /* libPocoFoundation.a */; };
+		41643A5E2775F14800FBC707 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41643A5C2775F14800FBC707 /* Socket.cpp */; };
+		41643A672776005300FBC707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41643A662776005300FBC707 /* AppDelegate.m */; };
+		41643A6A2776005300FBC707 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41643A692776005300FBC707 /* SceneDelegate.m */; };
+		41643A6D2776005300FBC707 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41643A6C2776005300FBC707 /* ViewController.mm */; };
+		41643A702776005300FBC707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41643A6E2776005300FBC707 /* Main.storyboard */; };
+		41643A722776005400FBC707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41643A712776005400FBC707 /* Assets.xcassets */; };
+		41643A752776005400FBC707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41643A732776005400FBC707 /* LaunchScreen.storyboard */; };
+		41643A782776005400FBC707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41643A772776005400FBC707 /* main.m */; };
+		41643A7E2776011E00FBC707 /* Socketios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41643A7C2776011E00FBC707 /* Socketios.cpp */; };
+		41643A852776039400FBC707 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41643A832776039300FBC707 /* libPocoNet.a */; };
+		41643A862776039400FBC707 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41643A842776039300FBC707 /* libPocoFoundation.a */; };
+		419EA8142775CD94009EA7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EA8132775CD94009EA7FE /* AppDelegate.m */; };
+		419EA8172775CD94009EA7FE /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 419EA8162775CD94009EA7FE /* ViewController.mm */; };
+		419EA8192775CD95009EA7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419EA8182775CD95009EA7FE /* Assets.xcassets */; };
+		419EA81C2775CD95009EA7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419EA81A2775CD95009EA7FE /* Main.storyboard */; };
+		419EA81E2775CD95009EA7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EA81D2775CD95009EA7FE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41643A562775F09100FBC707 /* libPocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNet.a; path = third_party/poco/build_mac/lib/Release/libPocoNet.a; sourceTree = SOURCE_ROOT; };
+		41643A572775F09100FBC707 /* libPocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundation.a; path = third_party/poco/build_mac/lib/Release/libPocoFoundation.a; sourceTree = SOURCE_ROOT; };
+		41643A5C2775F14800FBC707 /* Socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+		41643A5D2775F14800FBC707 /* Socket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Socket.hpp; sourceTree = "<group>"; };
+		41643A632776005300FBC707 /* PocoDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocoDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41643A652776005300FBC707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41643A662776005300FBC707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41643A682776005300FBC707 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		41643A692776005300FBC707 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		41643A6B2776005300FBC707 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41643A6C2776005300FBC707 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		41643A6F2776005300FBC707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41643A712776005400FBC707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41643A742776005400FBC707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41643A762776005400FBC707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41643A772776005400FBC707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41643A7C2776011E00FBC707 /* Socketios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socketios.cpp; sourceTree = "<group>"; };
+		41643A7D2776011E00FBC707 /* Socketios.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Socketios.hpp; sourceTree = "<group>"; };
+		41643A832776039300FBC707 /* libPocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNet.a; path = third_party/poco/build_ios/lib/RelWithDebInfo/libPocoNet.a; sourceTree = SOURCE_ROOT; };
+		41643A842776039300FBC707 /* libPocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundation.a; path = third_party/poco/build_ios/lib/RelWithDebInfo/libPocoFoundation.a; sourceTree = SOURCE_ROOT; };
+		419EA80F2775CD94009EA7FE /* PocoDemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocoDemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419EA8122775CD94009EA7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		419EA8132775CD94009EA7FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		419EA8152775CD94009EA7FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		419EA8162775CD94009EA7FE /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		419EA8182775CD95009EA7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419EA81B2775CD95009EA7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419EA81D2775CD95009EA7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		419EA81F2775CD95009EA7FE /* PocoDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PocoDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41643A602776005300FBC707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41643A852776039400FBC707 /* libPocoNet.a in Frameworks */,
+				41643A862776039400FBC707 /* libPocoFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EA80C2775CD94009EA7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41643A582775F09100FBC707 /* libPocoNet.a in Frameworks */,
+				41643A592775F09100FBC707 /* libPocoFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41643A642776005300FBC707 /* PocoDemoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				41643A842776039300FBC707 /* libPocoFoundation.a */,
+				41643A832776039300FBC707 /* libPocoNet.a */,
+				41643A652776005300FBC707 /* AppDelegate.h */,
+				41643A662776005300FBC707 /* AppDelegate.m */,
+				41643A682776005300FBC707 /* SceneDelegate.h */,
+				41643A692776005300FBC707 /* SceneDelegate.m */,
+				41643A6B2776005300FBC707 /* ViewController.h */,
+				41643A6C2776005300FBC707 /* ViewController.mm */,
+				41643A7C2776011E00FBC707 /* Socketios.cpp */,
+				41643A7D2776011E00FBC707 /* Socketios.hpp */,
+				41643A6E2776005300FBC707 /* Main.storyboard */,
+				41643A712776005400FBC707 /* Assets.xcassets */,
+				41643A732776005400FBC707 /* LaunchScreen.storyboard */,
+				41643A762776005400FBC707 /* Info.plist */,
+				41643A772776005400FBC707 /* main.m */,
+			);
+			path = PocoDemoIOS;
+			sourceTree = "<group>";
+		};
+		419EA8062775CD94009EA7FE = {
+			isa = PBXGroup;
+			children = (
+				419EA8112775CD94009EA7FE /* PocoDemo */,
+				41643A642776005300FBC707 /* PocoDemoIOS */,
+				419EA8102775CD94009EA7FE /* Products */,
+				419EB3702775CFC7009EA7FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		419EA8102775CD94009EA7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419EA80F2775CD94009EA7FE /* PocoDemoMac.app */,
+				41643A632776005300FBC707 /* PocoDemoIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419EA8112775CD94009EA7FE /* PocoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41643A572775F09100FBC707 /* libPocoFoundation.a */,
+				41643A562775F09100FBC707 /* libPocoNet.a */,
+				419EA8122775CD94009EA7FE /* AppDelegate.h */,
+				419EA8132775CD94009EA7FE /* AppDelegate.m */,
+				419EA8152775CD94009EA7FE /* ViewController.h */,
+				419EA8162775CD94009EA7FE /* ViewController.mm */,
+				419EA8182775CD95009EA7FE /* Assets.xcassets */,
+				419EA81A2775CD95009EA7FE /* Main.storyboard */,
+				419EA81D2775CD95009EA7FE /* main.m */,
+				419EA81F2775CD95009EA7FE /* PocoDemo.entitlements */,
+				41643A5C2775F14800FBC707 /* Socket.cpp */,
+				41643A5D2775F14800FBC707 /* Socket.hpp */,
+			);
+			path = PocoDemo;
+			sourceTree = "<group>";
+		};
+		419EB3702775CFC7009EA7FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41643A622776005300FBC707 /* PocoDemoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41643A792776005400FBC707 /* Build configuration list for PBXNativeTarget "PocoDemoIOS" */;
+			buildPhases = (
+				41643A5F2776005300FBC707 /* Sources */,
+				41643A602776005300FBC707 /* Frameworks */,
+				41643A612776005300FBC707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocoDemoIOS;
+			productName = PocoDemoIOS;
+			productReference = 41643A632776005300FBC707 /* PocoDemoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419EA80E2775CD94009EA7FE /* PocoDemoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419EA8222775CD95009EA7FE /* Build configuration list for PBXNativeTarget "PocoDemoMac" */;
+			buildPhases = (
+				419EA80B2775CD94009EA7FE /* Sources */,
+				419EA80C2775CD94009EA7FE /* Frameworks */,
+				419EA80D2775CD94009EA7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocoDemoMac;
+			productName = PocoDemo;
+			productReference = 419EA80F2775CD94009EA7FE /* PocoDemoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419EA8072775CD94009EA7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					41643A622776005300FBC707 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					419EA80E2775CD94009EA7FE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 419EA80A2775CD94009EA7FE /* Build configuration list for PBXProject "PocoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419EA8062775CD94009EA7FE;
+			productRefGroup = 419EA8102775CD94009EA7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419EA80E2775CD94009EA7FE /* PocoDemoMac */,
+				41643A622776005300FBC707 /* PocoDemoIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41643A612776005300FBC707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41643A752776005400FBC707 /* LaunchScreen.storyboard in Resources */,
+				41643A722776005400FBC707 /* Assets.xcassets in Resources */,
+				41643A702776005300FBC707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EA80D2775CD94009EA7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419EA8192775CD95009EA7FE /* Assets.xcassets in Resources */,
+				419EA81C2775CD95009EA7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41643A5F2776005300FBC707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41643A6D2776005300FBC707 /* ViewController.mm in Sources */,
+				41643A672776005300FBC707 /* AppDelegate.m in Sources */,
+				41643A782776005400FBC707 /* main.m in Sources */,
+				41643A6A2776005300FBC707 /* SceneDelegate.m in Sources */,
+				41643A7E2776011E00FBC707 /* Socketios.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419EA80B2775CD94009EA7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41643A5E2775F14800FBC707 /* Socket.cpp in Sources */,
+				419EA8172775CD94009EA7FE /* ViewController.mm in Sources */,
+				419EA81E2775CD95009EA7FE /* main.m in Sources */,
+				419EA8142775CD94009EA7FE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41643A6E2776005300FBC707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41643A6F2776005300FBC707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41643A732776005400FBC707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41643A742776005400FBC707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		419EA81A2775CD95009EA7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419EA81B2775CD95009EA7FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41643A7A2776005400FBC707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C85PE3Z934;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocoDemoIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party/poco/build_ios/lib/Release",
+					"$(PROJECT_DIR)/third_party/poco/build_ios/lib/RelWithDebInfo",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katekovanton.PocoDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41643A7B2776005400FBC707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C85PE3Z934;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocoDemoIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party/poco/build_ios/lib/Release",
+					"$(PROJECT_DIR)/third_party/poco/build_ios/lib/RelWithDebInfo",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katekovanton.PocoDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419EA8202775CD95009EA7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/third_party/poco/Net/include\"",
+					"\"$(SRCROOT)/third_party/poco/Foundation/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		419EA8212775CD95009EA7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/third_party/poco/Net/include\"",
+					"\"$(SRCROOT)/third_party/poco/Foundation/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		419EA8232775CD95009EA7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PocoDemo/PocoDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C85PE3Z934;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party/poco/build_mac/lib/Release",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katekovanton.PocoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		419EA8242775CD95009EA7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PocoDemo/PocoDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C85PE3Z934;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third_party/poco/build_mac/lib/Release",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katekovanton.PocoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41643A792776005400FBC707 /* Build configuration list for PBXNativeTarget "PocoDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41643A7A2776005400FBC707 /* Debug */,
+				41643A7B2776005400FBC707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419EA80A2775CD94009EA7FE /* Build configuration list for PBXProject "PocoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419EA8202775CD95009EA7FE /* Debug */,
+				419EA8212775CD95009EA7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419EA8222775CD95009EA7FE /* Build configuration list for PBXNativeTarget "PocoDemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419EA8232775CD95009EA7FE /* Debug */,
+				419EA8242775CD95009EA7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419EA8072775CD94009EA7FE /* Project object */;
+}
