@@ -1,3 +1,6 @@
 [submodule "third_party/poco"]
 	path = third_party/poco
 	url = git@github.com:KatekovAnton/poco.git
+[submodule "third_party/poco_pod"]
+	path = third_party/poco_pod
+	url = git@github.com:KatekovAnton/Poco-Pod.git

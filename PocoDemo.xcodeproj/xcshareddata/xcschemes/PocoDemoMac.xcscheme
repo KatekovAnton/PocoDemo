@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "419EA80E2775CD94009EA7FE"
-               BuildableName = "PocoDemo.app"
+               BuildableName = "PocoDemoMac.app"
                BlueprintName = "PocoDemoMac"
                ReferencedContainer = "container:PocoDemo.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "419EA80E2775CD94009EA7FE"
-            BuildableName = "PocoDemo.app"
+            BuildableName = "PocoDemoMac.app"
             BlueprintName = "PocoDemoMac"
             ReferencedContainer = "container:PocoDemo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "419EA80E2775CD94009EA7FE"
-            BuildableName = "PocoDemo.app"
+            BuildableName = "PocoDemoMac.app"
             BlueprintName = "PocoDemoMac"
             ReferencedContainer = "container:PocoDemo.xcodeproj">
          </BuildableReference>

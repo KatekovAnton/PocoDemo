@@ -20,3 +20,11 @@ build_mac:
 	cmake --build . --target Foundation --config Release && \
 	cmake --build . --target Net --config Release
 
+
+.PHONY: prepare_ios
+prepare_ios:
+	cd third_party/poco_pod && \
+	./build-openssl.sh && \
+	./build.sh && \
+	mkdir -p third_party/poco_ios && \
+	tar -xzf "third_party/poco_pod/standard/poco-1.11.1-standard-sdk15.0.tar.gz" -C "third_party/poco_ios"
