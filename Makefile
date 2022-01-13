@@ -18,6 +18,7 @@ prepare_mac:
 build_mac:
 	cd third_party/poco/build_mac && \
 	cmake --build . --target Foundation --config Release && \
+	cmake --build . --target Util --config Release && \
 	cmake --build . --target Net --config Release
 
 

@@ -25,6 +25,8 @@
 		41C436492785C2E5000CE139 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C436472785C2E5000CE139 /* libPocoFoundation.a */; };
 		41C4364A2785C2E5000CE139 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C436482785C2E5000CE139 /* libPocoNet.a */; };
 		41C4364B2785C44B000CE139 /* Socketios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41643A7C2776011E00FBC707 /* Socketios.cpp */; };
+		41C4365527881D6F000CE139 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C4365427881D6F000CE139 /* libPocoUtil.a */; };
+		41C4365727881D83000CE139 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C4365627881D83000CE139 /* libPocoUtil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		419EA81F2775CD95009EA7FE /* PocoDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PocoDemo.entitlements; sourceTree = "<group>"; };
 		41C436472785C2E5000CE139 /* libPocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundation.a; path = third_party/poco_ios/lib/libPocoFoundation.a; sourceTree = SOURCE_ROOT; };
 		41C436482785C2E5000CE139 /* libPocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNet.a; path = third_party/poco_ios/lib/libPocoNet.a; sourceTree = SOURCE_ROOT; };
+		41C4365427881D6F000CE139 /* libPocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoUtil.a; path = third_party/poco_ios/lib/libPocoUtil.a; sourceTree = SOURCE_ROOT; };
+		41C4365627881D83000CE139 /* libPocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoUtil.a; path = third_party/poco/build_mac/lib/Release/libPocoUtil.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C4365527881D6F000CE139 /* libPocoUtil.a in Frameworks */,
 				41C4364A2785C2E5000CE139 /* libPocoNet.a in Frameworks */,
 				41C436492785C2E5000CE139 /* libPocoFoundation.a in Frameworks */,
 			);
@@ -73,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C4365727881D83000CE139 /* libPocoUtil.a in Frameworks */,
 				41643A582775F09100FBC707 /* libPocoNet.a in Frameworks */,
 				41643A592775F09100FBC707 /* libPocoFoundation.a in Frameworks */,
 			);
@@ -85,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				41C436472785C2E5000CE139 /* libPocoFoundation.a */,
+				41C4365427881D6F000CE139 /* libPocoUtil.a */,
 				41C436482785C2E5000CE139 /* libPocoNet.a */,
 				41643A652776005300FBC707 /* AppDelegate.h */,
 				41643A662776005300FBC707 /* AppDelegate.m */,
@@ -126,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				41643A572775F09100FBC707 /* libPocoFoundation.a */,
+				41C4365627881D83000CE139 /* libPocoUtil.a */,
 				41643A562775F09100FBC707 /* libPocoNet.a */,
 				419EA8122775CD94009EA7FE /* AppDelegate.h */,
 				419EA8132775CD94009EA7FE /* AppDelegate.m */,
@@ -425,6 +433,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/third_party/poco/Net/include\"",
+					"\"$(SRCROOT)/third_party/poco/Util/include\"",
 					"\"$(SRCROOT)/third_party/poco/Foundation/include\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
@@ -478,6 +487,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/third_party/poco/Net/include\"",
+					"\"$(SRCROOT)/third_party/poco/Util/include\"",
 					"\"$(SRCROOT)/third_party/poco/Foundation/include\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
